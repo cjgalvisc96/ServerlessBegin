@@ -1,0 +1,19 @@
+service: apollo-server-lambda-example
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+  stage: dev
+
+plugins:
+  - serverless-offline
+
+functions:
+  graphql:
+    handler: index.graphqlHandler
+    events:
+      - http:
+          path: "{proxy+}"
+          method: any
+          cors: true

@@ -1,0 +1,11 @@
+{
+  "name": "youtubeSpaniol",
+  "version": "1.0.0",
+  "dependencies": {
+    "apollo-server-lambda": "^2.9.16",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  }
+}
