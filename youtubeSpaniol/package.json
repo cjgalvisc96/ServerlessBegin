@@ -2,7 +2,7 @@
   "name": "youtubeSpaniol",
   "version": "1.0.0",
   "dependencies": {
-    "apollo-server-lambda": "^2.9.16",
+    "apollo-server-lambda": "^2.14.2",
     "graphql": "^14.5.8"
   },
   "devDependencies": {
